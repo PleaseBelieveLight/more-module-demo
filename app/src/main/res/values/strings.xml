@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">frame</string>
+    <string name="app_name">Scaffold</string>
     <string name="frag_home">home</string>
     <string name="frag_setting">setting</string>
     <string name="activity_bus">bus</string>
