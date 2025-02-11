@@ -28,7 +28,7 @@ class LifeTrackRepository @Inject constructor(
 
     private fun defalutLifeTrackEntity(): LifeTrackEntity {
         return LifeTrackEntity(
-            id = "0",
+            id = "10000",
             like = "dog",
             type = "anim",
             character = "d",

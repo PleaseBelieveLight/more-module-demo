@@ -20,6 +20,9 @@ enum class NiaFlavor(val dimension: FlavorDimension, val applicationIdSuffix: St
     prod(FlavorDimension.contentType)
 }
 
+// 构建不同版本的应用： 例如，免费版和付费版、演示版和完整版等。
+// 构建针对不同市场的应用： 例如，针对不同国家或地区的应用。
+// 构建不同功能的模块： 例如，包含不同功能的模块。
 fun Project.configureFlavors(
     commonExtension: CommonExtension<*, *, *, *>,
     flavorConfigurationBlock: ProductFlavor.(flavor: NiaFlavor) -> Unit = {}
@@ -33,7 +36,7 @@ fun Project.configureFlavors(
                     flavorConfigurationBlock(this, it)
                     if (this@apply is ApplicationExtension && this is ApplicationProductFlavor) {
                         if (it.applicationIdSuffix != null) {
-                            this.applicationIdSuffix = it.applicationIdSuffix
+                            applicationIdSuffix = it.applicationIdSuffix
                         }
                     }
                 }

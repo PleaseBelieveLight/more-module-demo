@@ -14,7 +14,7 @@ import javax.inject.Inject
  * @Author: ljl
  * @Email: ljl@dofun.cc
  * @ClassName: com.yyzy.main
- * @Description: CODE
+ * @Description: BusinessViewModel
  * @Date: 2024/2/1
  */
 @HiltViewModel
