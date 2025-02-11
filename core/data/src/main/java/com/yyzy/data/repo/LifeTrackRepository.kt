@@ -8,7 +8,7 @@ import javax.inject.Inject
  * @Author: ljl
  * @Email: ljl@dofun.cc
  * @ClassName: com.yyzy.data.repo
- * @Description: CODE
+ * @Description: LifeTrackRepository
  * @Date: 2024/2/1
  */
 class LifeTrackRepository @Inject constructor(
