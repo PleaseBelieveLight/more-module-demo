@@ -15,7 +15,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "more-module-demo"
+rootProject.name = "AndroidScaffold"
 
 include(":app")
 
